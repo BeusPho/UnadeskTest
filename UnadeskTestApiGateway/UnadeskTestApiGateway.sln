@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnadeskTestApiGateway", "UnadeskTestApiGateway\UnadeskTestApiGateway.csproj", "{824E8214-ACF7-493B-9CA8-5568B3CC7DD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnadeskTestCommon", "..\UnadeskTestCommon\UnadeskTestCommon\UnadeskTestCommon.csproj", "{F4881FF6-1990-4A48-8964-FFB7311335FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{824E8214-ACF7-493B-9CA8-5568B3CC7DD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{824E8214-ACF7-493B-9CA8-5568B3CC7DD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{824E8214-ACF7-493B-9CA8-5568B3CC7DD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{824E8214-ACF7-493B-9CA8-5568B3CC7DD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4881FF6-1990-4A48-8964-FFB7311335FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4881FF6-1990-4A48-8964-FFB7311335FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4881FF6-1990-4A48-8964-FFB7311335FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4881FF6-1990-4A48-8964-FFB7311335FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
