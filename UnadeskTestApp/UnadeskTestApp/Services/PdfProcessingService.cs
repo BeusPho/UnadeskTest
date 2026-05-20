@@ -1,5 +1,6 @@
 ﻿using UglyToad.PdfPig;
 using UnadeskTestCommon.Entities;
+using UnadeskTestCommon.Enums;
 using UnadeskTestCommon.Repository;
 
 namespace UnadeskTestApp.Services;
@@ -20,7 +21,7 @@ public class PdfProcessingService(PdfRepository repository)
             return;
         }
 
-        entity.Status = "Updated";
+        entity.Status = PdfStatuses.Updated.ToString();
         entity.TextContent = text;
 
         await repository.UpdatePdfAsync(entity);
