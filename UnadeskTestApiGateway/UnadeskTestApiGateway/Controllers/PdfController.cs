@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using UnadeskTestApiGateway.Producers;
 using UnadeskTestCommon.Entities;
+using UnadeskTestCommon.Enums;
 using UnadeskTestCommon.Repository;
 
 namespace UnadeskTestApiGateway.Controllers;
@@ -32,7 +33,7 @@ public class PdfController(MqLoadProducer loadProducer, PdfRepository repository
         var id = await repository.InitialWritePdfAsync(new PdfRecord
         {
             Name = file.Name,
-            Status = "New",
+            Status = PdfStatuses.New.ToString(),
             UploadDate = DateTime.UtcNow,
         });
 
